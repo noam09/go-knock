@@ -19,10 +19,10 @@ Usage:
   knock --version
 
 Options:
-  -h --help             Show this screen.
-  --version             Show version.
-  -d, --delay=<d>       Delay between ports in milliseconds [default: 300].
-  -u, --udp             Send UDP packets instead of TCP [default: false].`
+  -h --help          Show this screen.
+  --version          Show version.
+  -d, --delay=<ms>   Delay between ports in milliseconds [default: 300].
+  -u, --udp          Send UDP packets instead of TCP [default: false].`
 
     arguments, _ := docopt.Parse(usage, nil, true, "Go Knock 1.0", false)
     // fmt.Println(arguments)
