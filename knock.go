@@ -16,11 +16,11 @@ func main() {
 Usage:
   knock [-d=<ms>] [-u] <host> <port> <port>...
   knock -h | --help
-  knock --version
+  knock -v | --version
 
 Options:
-  -h --help          Show this screen.
-  --version          Show version.
+  -h, --help         Show this screen.
+  -v, --version      Show version.
   -d, --delay=<ms>   Delay between ports in milliseconds [default: 300].
   -u, --udp          Send UDP packets instead of TCP [default: false].`
 
