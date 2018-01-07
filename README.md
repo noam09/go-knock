@@ -8,7 +8,7 @@ To install go-knock according to your `$GOPATH`:
 $ go get github.com/noam09/go-knock
 ```
 
-You can also use a compiled binary from the [releases](https://github.com/noam09/go-knock/releases) page.
+You can also use a compiled (Windows) binary from the [releases](https://github.com/noam09/go-knock/releases) page.
 
 ## Usage
 
