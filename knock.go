@@ -14,7 +14,7 @@ func main() {
     usage := `Go Knock
 
 Usage:
-  knock [-d=<ms>] [-u] <host> <port> <port>...
+  knock [-d=<ms>] [-u] <host> <port>...
   knock -h | --help
   knock -v | --version
 
